@@ -1,38 +1,132 @@
 .App {
+  background-color: #f3f3f3;
+  padding-top: 50px;
+}
+
+.outer-div {
   text-align: center;
+  width: 300px;
+  margin: 5% auto;
+  box-shadow: 1px 1px 2px #cecece;
+  padding: 5px;
+  background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.money-icon, .info-icon, .icon100   {
+  width: 15px;
+  padding: 0px 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divider {
+  width: 95%;
+  height: 1px;
+  background-color: rgba(220, 220, 220, 0.84);
+  margin: 5px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.offer-text {
+  text-align: left;
+  width: 90%;
+  padding: 15px 10px;
+  margin-top: 10px;
+}
+
+.select-element {
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 0px;
+}
+
+.button-check {
+  width: 95%;
+  margin: 24px auto;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 8px;
+  color: white;
+  background-image: linear-gradient(to right, #fa617d , #cb2f51);
+  margin-bottom: 30px;
+}
+
+.price-container {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+}
+
+.from-style {
+  color: #bebebe;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 5px;
+}
+
+.price-style {
+  color: #4f535d;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 35px;
+}
+
+
+.price-text {
+  padding: 22px 0px;
+}
+
+.footer-style {
+  color: #dfcda6;
+}
+
+.icon100   {
+  width: 15px;
+  padding: 0px 7px 0px 0px;
+}
+
+.footer {
+  margin: 7px auto;
+  font-size: 15px;
+  line-spacing: 1px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: -7px;
+}
+
+.horizontal_dotted_line{
+  border-bottom: 7px dotted black;
+  width: 90%;
+}
+
+.dotted-spaced {
+  background-image: linear-gradient(to right, #333 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: top;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cut-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: -27px;
+  background-color: #f3f3f3;
+  margin-top: -19px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cut-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  background-color: #f3f3f3;
+  margin-top: -38px;
+  right: -29px;
 }
+
+.ticket-parent {
+  position: relative;
+}
+
+
